@@ -1,0 +1,68 @@
+.info-ivan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .img-bg {
+    .ronaldo {
+      width: 646px;
+      height: 801px;
+      object-fit: contain;
+      position: absolute;
+      top: -106px;
+      left: 0;
+      z-index: 1;
+    }
+
+    .bg {
+      width: 250px;
+      position: relative;
+      left: -100px;
+      top: 180px;
+      filter: blur(30px);
+      z-index:0 ;
+    }
+  }
+
+  .job-name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    .info-name-job {
+      display: flex;
+      align-items: center;
+
+      .ivan-frontend {
+        line-height: 10px;
+        font-size: 35px;
+
+        .red-frontend {
+          color: #ff4747;
+        }
+      }
+
+      .i-am {
+        font-size: 34px;
+        transform: rotate(270deg);
+      }
+    }
+    .btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+
+      button {
+        padding: 15px 30px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        background-color: #fa7902;
+        font-size: 23px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.about-me-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+    .left-side-about-me{
+        
+    .info-about-me{
+       
+        .header{
+            color: white;
+            font-size: 90px;
+            white-space: nowrap;
+        }
+    }
+
+    .info-me{
+        width: 400px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .bulb-container{
+        width: 400px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 30px;
+        color: white;
+    }
+
+   .puzzle-container{
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+   }
+}
+
+   .right-side-about-me{
+    display: flex;
+    .circle-img{
+        display: flex;
+        align-items: center;
+    }
+
+    .right-side-red-bg{
+        position: absolute;
+        right: 0;
+        top: 500px;
+        
+    }
+   }
+}

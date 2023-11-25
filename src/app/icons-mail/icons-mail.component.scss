@@ -1,0 +1,25 @@
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icons{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 23px;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .scrolldown{
+        margin-right: 100px;
+    }
+}

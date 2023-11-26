@@ -1,0 +1,150 @@
+.portfolio-all {
+  line-height: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 380px;
+    text-align: center;
+    h1 {
+      font-size: 90px;
+      color: white;
+    }
+
+    .bg-portfolio-orange {
+      position: absolute;
+      left: 0;
+    }
+  }
+  .txt-portfolio {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .join-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 150px;
+
+      .join-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 500px;
+
+        h2 {
+          color: #ff4747;
+          font-size: 32px;
+        }
+
+        span {
+          color: #fa7902;
+          font-size: 23px;
+        }
+
+        p {
+          color: white;
+          line-height: 15px;
+          font-size: 16px;
+        }
+
+        .btn-join {
+          display: flex;
+          gap: 86px;
+
+          .live-test {
+            background-color: #ff4747;
+            border: none;
+          }
+
+          .github-btn {
+            background-color: transparent;
+            border: 1px solid #fa7902;
+          }
+
+          button {
+            border-radius: 10px;
+            width: 137px;
+            height: 58px;
+            font-size: 23px;
+            color: white;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .pollo-loco-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 150px;
+
+      .loco-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 500px;
+
+        h2 {
+          color: #ff4747;
+          font-size: 32px;
+        }
+
+        span {
+          color: #fa7902;
+          font-size: 23px;
+        }
+
+        p {
+          color: white;
+          line-height: 15px;
+          font-size: 16px;
+        }
+
+        .loco-btn {
+          display: flex;
+          gap: 86px;
+
+          .live-test {
+            background-color: #ff4747;
+            border: none;
+          }
+
+          .github-btn {
+            background-color: transparent;
+            border: 1px solid #fa7902;
+          }
+
+          button {
+            border-radius: 10px;
+            width: 137px;
+            height: 58px;
+            font-size: 23px;
+            color: white;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

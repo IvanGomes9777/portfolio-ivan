@@ -5,13 +5,15 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { IntroMyselfComponent } from "./intro-myself/intro-myself.component";
 import { IconsMailComponent } from "./icons-mail/icons-mail.component";
 import { AboutMeComponent } from './about-me/about-me.component';
+import { MySkillsComponent } from "./my-skills/my-skills.component";
+import { PortfolioComponent } from "./portfolio/portfolio.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, NavbarComponent, IntroMyselfComponent, IconsMailComponent, AboutMeComponent]
+    imports: [CommonModule, RouterOutlet, NavbarComponent, IntroMyselfComponent, IconsMailComponent, AboutMeComponent, MySkillsComponent, PortfolioComponent]
 })
 export class AppComponent {
   title = 'my-app';

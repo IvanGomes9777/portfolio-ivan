@@ -1,0 +1,54 @@
+.icon-skill {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 100px;
+  .icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 37px 100px;
+    gap: 100px;
+    width: 800px;
+  }
+
+  .skill{
+    display: flex;
+    flex-direction: column;
+    .header-line{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 30px;
+        h1{
+            color: white;
+            font-size: 90px;
+        }
+    }
+
+    .txt-skill{
+        color: white;
+        text-align: center;
+        width: 350px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button{
+            background-color: #FA7902;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            width: 200px;
+            height:58px;
+            font-size: 23px;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+  }
+}

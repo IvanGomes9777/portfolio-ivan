@@ -1,57 +1,56 @@
-.about-me-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    .left-side-about-me{
-        
-    .info-about-me{
-       
-        .header{
-            color: white;
-            font-size: 90px;
-            white-space: nowrap;
-        }
-    }
-
-    .info-me{
-        width: 400px;
+  .left-side-about-me {
+    padding: 37px 100px;
+    .info-about-me {
+      .header {
         color: white;
-        font-size: 16px;
+        font-size: 90px;
+        white-space: nowrap;
+      }
     }
 
-    .bulb-container{
-        width: 400px;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        margin-top: 30px;
-        color: white;
+    .info-me {
+      width: 400px;
+      color: white;
+      font-size: 16px;
     }
 
-   .puzzle-container{
-    width: 400px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 30px;
-    color: white;
-   }
-}
-
-   .right-side-about-me{
-    display: flex;
-    .circle-img{
-        display: flex;
-        align-items: center;
+    .bulb-container {
+      width: 400px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-top: 30px;
+      color: white;
     }
 
-    .right-side-red-bg{
-        position: absolute;
-        right: 0;
-        top: 500px;
-        
+    .puzzle-container {
+      width: 400px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-top: 30px;
+      color: white;
     }
-   }
+  }
+
+  .right-side-about-me {
+    // position: absolute;
+    // right: 0;
+    .circle-img {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+
+    .right-side-red-bg {
+      position: absolute;
+      right: 0;
+      top: 650px;
+    }
+  }
 }

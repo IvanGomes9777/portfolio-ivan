@@ -1,0 +1,22 @@
+footer {
+  border-top: 5px solid #fa7902;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .impressum {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 23px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 30px;
+  }
+}

@@ -1,32 +1,29 @@
 .info-ivan {
   display: flex;
   align-items: center;
-  justify-content:space-around;
-
+  justify-content: space-between;
+  padding: 37px 100px;
   .img-bg {
-
-
-    .cr7{
+    .cr7 {
       position: absolute;
-      top: -100px;
+      top: -101px;
       left: 0px;
-      z-index: 1; 
-    .ronaldo {
-      width: 646px;
-      height: 801px;
-      object-fit: contain;
-      
+      z-index: 1;
+      .ronaldo {
+        width: 446px;
+        height: 701px;
+        object-fit: contain;
+      }
     }
-  }
-    
 
     .bg {
       width: 300px;
       position: relative;
       left: -150px;
-      top: 180px;
+      top: 0px;
       filter: blur(30px);
       transform: rotateY(180deg);
+      z-index: 0;
     }
   }
 

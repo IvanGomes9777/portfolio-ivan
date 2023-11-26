@@ -2,7 +2,7 @@
   line-height: 10px;
   display: flex;
   flex-direction: column;
-
+  
   .portfolio-header {
     display: flex;
     align-items: center;
@@ -28,14 +28,13 @@
   }
 
   .projects-container {
+    padding: 37px 100px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   flex-direction: column;
 
     .join-container {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       gap: 150px;
 
@@ -92,7 +91,7 @@
 
     .pollo-loco-container {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       flex-direction: row-reverse;
       gap: 150px;
@@ -150,6 +149,7 @@
 
     .pokedex-container {
       display: flex;
+      justify-content: space-between;
       align-items: center;
       gap: 150px;
 

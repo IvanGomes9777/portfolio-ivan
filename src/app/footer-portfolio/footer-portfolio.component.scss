@@ -8,6 +8,24 @@ footer {
   .impressum {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      width: 200px;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      position: relative;
+      top: -60px;
+      right: 50px;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 
   .copyright {

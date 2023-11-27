@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 @Component({
   selector: 'app-intro-myself',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './intro-myself.component.html',
-  styleUrl: './intro-myself.component.scss'
+  standalone:true,
+  imports:[CommonModule],
+  styleUrls: ['./intro-myself.component.scss'],
+  templateUrl: './intro-myself.component.html'
 })
 export class IntroMyselfComponent {
-
+  
 }

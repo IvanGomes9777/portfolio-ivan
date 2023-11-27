@@ -3,3 +3,16 @@
     height: 600px;
     border-bottom-right-radius: 45%;
 }
+
+@media(max-width:1520px){
+    .portfolio{
+        height: fit-content;
+    }
+}
+
+@media(max-width:1000px){
+    .portfolio{
+        height: 420px;
+        border-bottom-right-radius: 35%;
+    }
+}

@@ -9,7 +9,7 @@
       top: -101px;
       left: 0px;
       z-index: 1;
-      .ronaldo {
+      img {
         width: 446px;
         height: 701px;
         object-fit: contain;
@@ -28,16 +28,17 @@
   }
 
   .job-name {
+    font-size: 35px;
     color: white;
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
     .info-name-job {
       display: flex;
       align-items: center;
 
       .ivan-frontend {
         line-height: 10px;
-        font-size: 35px;
 
         .red-frontend {
           color: #ff4747;
@@ -45,7 +46,6 @@
       }
 
       .i-am {
-        font-size: 34px;
         transform: rotate(270deg);
       }
     }
@@ -65,6 +65,55 @@
 
         &:hover {
           cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1520px) {
+  .info-ivan {
+    flex-direction: column;
+    gap: 20px;
+    .img-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .cr7 {
+        position: absolute;
+        left: auto;
+      }
+      .bg {
+        left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .info-ivan {
+    padding: 20px 50px;
+    gap: 30px;
+    .img-bg {
+      .cr7 {
+        top: -130px;
+        img {
+          height: 550px;
+        }
+      }
+      .bg {
+        width: 200px;
+      }
+    }
+
+    .job-name {
+      font-size: 20px;
+
+      .btn {
+        margin-top: 0;
+        button {
+          width: 133px;
+          height: 49px;
         }
       }
     }

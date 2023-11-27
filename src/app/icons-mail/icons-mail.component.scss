@@ -24,3 +24,20 @@
         margin-right: 100px;
     }
 }
+
+@media(max-width:1445px){
+    .scrolldown{
+        display: none;
+    }
+}
+
+@media(max-width:1000px){
+    .icons-container{
+        margin-top: 200px;
+        .icons{
+            a{
+                display: none;
+            }
+        }
+    }
+}

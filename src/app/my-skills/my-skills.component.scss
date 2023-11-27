@@ -57,3 +57,28 @@
     }
   }
 }
+
+@media(max-width:1460px){
+  .skill{
+    .header-line{
+      h1{
+        white-space: nowrap;
+      }
+
+    }
+  }
+}
+
+@media(max-width:1000px){
+  .icon-skill{
+    flex-direction: column-reverse;
+
+    .skill{
+      .header-line{
+        img{
+          display: none;
+        }
+      }
+    }
+  }
+}

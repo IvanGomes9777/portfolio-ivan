@@ -54,3 +54,33 @@
     }
   }
 }
+
+
+@media(max-width:1445px){
+  .about-me-container{
+    justify-content: center;
+    .right-side-about-me{
+      .circle-img{
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width:1000px){
+  .about-me-container{
+    .left-side-about-me{
+      .info-about-me{
+        .header{
+          font-size: 50px;
+        }
+      }
+    }
+
+    .right-side-about-me{
+      .right-side-red-bg{
+        z-index: -1;
+      }
+    }
+  }
+}

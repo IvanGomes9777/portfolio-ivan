@@ -103,6 +103,7 @@
       }
 
       span {
+        white-space: nowrap;
         display: flex;
         align-items: center;
         a {
@@ -126,6 +127,20 @@
         &:hover {
           cursor: pointer;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  .contact-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .left-container{
+      align-items: center;
+      .contact-txt{
+        gap: 10px;
       }
     }
   }

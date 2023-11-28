@@ -59,6 +59,13 @@
 }
 
 @media(max-width:1460px){
+  .icon-skill{
+    gap: 50px;
+    .icons{
+      padding: 0;
+      width: fit-content;
+      justify-content: center;
+    }
   .skill{
     .header-line{
       h1{
@@ -67,14 +74,18 @@
 
     }
   }
+  
 }
-
+}
 @media(max-width:1000px){
   .icon-skill{
     flex-direction: column-reverse;
-
     .skill{
       .header-line{
+        justify-content: center;
+        h1{
+          font-size: 75px;
+        }
         img{
           display: none;
         }

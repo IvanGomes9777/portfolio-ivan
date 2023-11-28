@@ -1,7 +1,13 @@
+
+
 .portfolio-all {
   line-height: 10px;
   display: flex;
   flex-direction: column;
+
+  .portfolio-header img:nth-child(5){
+    display: none;
+  }
   
   .portfolio-header {
     display: flex;
@@ -30,7 +36,8 @@
   .projects-container {
     padding: 37px 100px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
+    justify-content: space-evenly;
 
     .join-container {
       display: flex;
@@ -202,4 +209,45 @@
       }
     }
   }
+}
+
+@media (max-width: 1430px) {
+  .portfolio-all .portfolio-header img:nth-child(5) {
+    display: flex;
+  }
+
+  .portfolio-all .portfolio-header img:nth-child(4) {
+    display: none;
+  }
+
+  .portfolio-all .portfolio-header {
+    margin-left: 0;
+  }
+
+  .portfolio-all .projects-container {
+    padding: 0;
+  }
+
+  .portfolio-all .projects-container .join-container,
+  .portfolio-all .projects-container .pollo-loco-container,
+  .portfolio-all .projects-container .pokedex-container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+ .portfolio-all{
+  .portfolio-header{
+    h1{
+      font-size: 75px;
+    }
+  }
+
+  .projects-container{
+    img{
+      width: 450px;
+    }
+  }
+ }
 }

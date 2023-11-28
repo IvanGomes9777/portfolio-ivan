@@ -38,3 +38,12 @@ footer {
     gap: 30px;
   }
 }
+
+
+@media(max-width:800px){
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+}

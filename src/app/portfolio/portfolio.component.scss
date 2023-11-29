@@ -251,3 +251,44 @@
   }
  }
 }
+
+@media (max-width: 730px) {
+  .portfolio-all{
+    .projects-container{
+      text-align: center;
+      .join-container{
+        .join-txt{
+          .btn-join{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            height: 45px;
+            font-size: 20px;
+          }
+        }
+      }
+      .pollo-loco-container{
+        .loco-txt{
+          .loco-btn{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            height: 45px;
+            font-size: 20px;
+          }
+        }
+      }
+      .pokedex-container{
+        .pokedex-txt{
+          .pokedex-btn{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            height: 45px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

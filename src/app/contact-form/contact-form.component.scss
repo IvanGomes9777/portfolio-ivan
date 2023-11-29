@@ -9,10 +9,6 @@
     flex-direction: column;
 
     .header-contact {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-
       h1 {
         font-size: 90px;
         color: white;
@@ -143,5 +139,23 @@
         gap: 10px;
       }
     }
+  }
+}
+
+@media (max-width: 1000px){
+  .header-contact{
+    font-size: 75px;
+    img{
+      display: none;
+    }
+  }
+
+  .contact-txt{
+    text-align: center;
+  }
+
+  .right-container{
+    width: max-content;
+    padding: 37px 100px;
   }
 }
